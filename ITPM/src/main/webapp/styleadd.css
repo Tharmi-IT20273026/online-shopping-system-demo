@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+ .hero{
+     height: 100%;
+     width: 100%;
+     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(banner.jpg);
+     background-position: center;
+     background-size: cover;
+     position: absolute;
+ }
+ .form-box{
+     width: 380px;
+     height: 325px;
+     color: azure;
+     position: relative;
+     margin: 12% auto;
+     border-radius: 15px;
+     background: linear-gradient(rgba(20, 9, 82, 0.789),rgba(173, 148, 182, 0.899));
+     padding: 5px;
+ }
+ .button-box{
+     width: 220px;
+     margin: 35px auto;
+     position: relative;
+     box-shadow: 0 0 20px 9px #3a05571f;
+     border-radius: 30px;
+ }
+
+.input-group{
+    top: 50px;
+    left: 15%;
+    color: rgb(9, 30, 56);
+    position: absolute;
+    width: 280px;
+    transition: 1.5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgb(21, 1, 17);
+    outline-style: auto;
+    outline-color: navy;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    color: darkgray;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, rgba(54, 8, 81, 0.837),rgba(114, 24, 147, 0.875));
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+    cursor: pointer;
+}
